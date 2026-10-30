@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+
+<header th:fragment="cabecera(titulo)" class="header">
+    <h1 th:text="${titulo}">Título por defecto</h1>
+    <nav>
+        <a th:href="@{/}">Inicio</a>
+        <a th:href="@{/insert}">Clientes</a>
+        <a th:href="@{/replace}">Catálogo </a>
+        <a th:href="@{/parametro}">Pedidos</a>
+    </nav>
+</header>
+<body>
+
+</body>
+</html>

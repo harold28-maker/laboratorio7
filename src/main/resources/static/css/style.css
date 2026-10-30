@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f6f8;
+    color: #20242a;
+}
+.header, .footer {
+    background: #20242a;
+    color: white;
+    padding: 18px 28px;
+}
+.header h1 { margin-top: 0; }
+.header a { color: white; margin-right: 16px; }
+main {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+}
+.fragment-box {
+    border: 3px dashed #555;
+    padding: 18px;
+    margin: 16px 0;
+}
+.fragment-box span { display: block; margin-top: 8px; }
+.host {
+    border: 5px solid #999;
+    padding: 12px;
+    margin: 16px 0;
+}
+pre {
+    background: #eceff3;
+    padding: 15px;
+    overflow-x: auto;
+}
+.challenge {
+    padding: 15px;
+    background: #eceff3;
+    margin-top: 20px;
+}
+.footer { margin-top: 40px; text-align: center; }
