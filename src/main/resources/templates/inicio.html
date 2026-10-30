@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${tituloPagina}">Inicio</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div th:replace="~{fragments/menu :: cabecera(${tituloPagina})}"></div>
+
+<main>
+    <h2>Portal de gestión comercial</h2>
+</main>
+
+
+</body>
+</html>
